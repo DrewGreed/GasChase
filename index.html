@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stevenage Plumbing Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="gassafeprofilepic.png" alt="Profile Picture" class="profile-pic">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slider Section -->
+    <section id="home">
+        <div class="slider">
+            <!-- Slideshow Images with lazy loading -->
+            <img class="slide active" src="image1.jpg" alt="Boiler Installation" loading="fast">
+            <img class="slide" src="image2.jpg" alt="Central Heating Services" loading="lazy">
+            <img class="slide" src="image3.jpg" alt="Emergency Plumbing" loading="lazy">
+        </div>
+        <div class="slider-text">
+            <h2>Welcome to Stevenage Plumbing</h2>
+            <p>Your local experts in boiler installation, maintenance, and repair services.</p>
+            <p>Call us now: <strong>07932 598408</strong></p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="boilerrepair.jpg" alt="Boiler Installs" loading="lazy">
+                <h3>Boiler Installs, Service and Repairs</h3>
+            </div>
+            <div class="service-item">
+                <img src="ye.jpg" alt="Heating Maintenance" loading="lazy">
+                <h3>Central Heating, Maintenance and Installation</h3>
+            </div>
+            <div class="service-item">
+                <img src="diagnostic.jpg" alt="Breakdown Diagnostics" loading="lazy">
+                <h3>Breakdown Diagnostics and Repair Services</h3>
+            </div>
+            <div class="service-item">
+                <img src="room.jpg" alt="Landlord Certification" loading="lazy">
+                <h3>All Landlord Certification and Servicing</h3>
+            </div>
+            <div class="service-item">
+                <img src="24hour.png" alt="24 Hour Callout" loading="lazy">
+                <h3>24 Hour Call Out Service Available</h3>
+            </div>
+            <div class="service-item">
+                <img src="quote.png" alt="Free Quotations" loading="lazy">
+                <h3>Free Quotations and Competitive Rates</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Serpentine Close, Stevenage, SG1 6AP</p>
+        <p>Phone: <strong>07932 598408</strong></p>
+        <form id="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Stevenage Plumbing Services | All Rights Reserved</p>
+            <a href="https://www.facebook.com/yourpage" target="_blank" class="facebook-icon" aria-label="Facebook">
+                <img src="facebook-icon.png" alt="Facebook">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
